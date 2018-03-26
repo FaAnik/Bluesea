@@ -1,0 +1,39 @@
+@media screen and (max-width:768px) {
+    
+    .menu {
+        height: 50px;
+        line-height: 25px;
+    }
+    .serviceContent{
+        padding: 0 20px;
+    }
+    .serviceText{
+        max-width: 50%;
+    }
+    
+    .sliderContent{
+        width: 50%;
+        text-align: center;
+    }
+    
+    .sliderTop{
+        width: 98%;    
+    }
+    
+    #defaultSection{
+        height: 375px;
+    }
+    .portfolioImages img{
+        max-width: 22%;
+        margin: 10px;
+    }
+    
+    .contactArea {
+        padding: 0 20px;
+    }
+    
+    .footerArea{
+        padding: 0 20px;
+    }
+    
+}

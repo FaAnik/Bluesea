@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/*============================1st Section Start==============================*/
+
+
+#slider {
+    max-width: 1920px;
+    background: url(../images/bannerImg.jpg);
+    background-position: center center;
+    background-size: cover;
+	position: relative;
+}
+
+
+.menu {
+    background-color: #465158;
+    padding-bottom: 25px;
+    opacity: 0.7; 
+	position: absolute;
+	width: 100%;
+	position: fixed;
+}
+
+.sliderTop {
+    width: 800px;
+    margin:0 auto;
+    padding: 25px;
+    text-align: center;
+}
+
+
+.logo {
+    max-width: 20%;
+    float: left;
+}
+nav {
+    float: right;
+    
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+
+nav ul li {
+   
+    float: left;
+    padding: 0 20px;
+    
+}
+
+nav ul li a {
+    text-align: center;
+    color: #f1f2f2;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    color: #4bcaff;
+    
+}
+
+
+
+.sliderContent {
+    padding:200px;
+    text-align: center;
+}
+
+.sliderContent h3{
+    color: #fff;
+    background-color: #434d55;
+    display: inline;
+}
+
+/*============================1st Section End==============================*/
+
+
+
+/*============================2nd Section Start==============================*/
+
+#services {
+    max-width: 1920px;
+    background-color: #4bcaff;
+    overflow: hidden;
+    color: #fff;
+}
+
+.serviceContent {
+    width: 1020px;
+    margin: 0 auto;
+    
+}
+
+.serviceContent h1 {
+    padding: 40px 0;
+    display: block;
+/*    background-color: red;*/
+}
+
+.serviceText {
+    list-style: none;
+    float: left;
+	max-width: 255px;
+	height:300px;
+	word-spacing: 2px;
+}
+
+.serviceText i{
+    font-size: 50px;
+    padding-bottom: 35px;
+    margin-left: 35%;
+	cursor: default;
+	
+}
+.serviceText h3{
+	font-size: 25px;
+    text-align: center;
+}
+
+.serviceText:hover i,
+.serviceText:hover h3 {
+	color: #5D6970;			
+}
+
+
+
+.ptext {
+    
+}
+
+/*============================2nd Section End ==============================*/
+
+
+
+/*============================3rd Section Start==============================*/
+
+#portfolio {
+    max-width: 1920px;
+    
+    
+}
+
+.portfolioContent{
+    max-width: 800px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.portfolioMenu {
+    overflow: hidden;
+    padding: 20px 20px;
+}
+
+.portfolioMenu h1{
+    max-width: 30%;
+    float: left;
+    text-transform: uppercase;
+}
+
+.portfolioMenu ul{
+    list-style: none;
+    float: right;  
+}
+
+.portfolioMenu ul li{
+    display: inline-block;
+    margin: 0 10px;
+   
+}
+
+.portfolioMenu ul a{
+    text-decoration: none;
+    color: #69747b;
+}
+
+.portfolioMenu ul a:hover{
+    color: #4bcaff;
+}
+.portfolioImages{
+    
+}
+
+
+.portfolioImages img{
+    max-width: 190px;
+    height: 190px;
+    float: left;
+    margin:0 10px 10px 0;
+    box-shadow: 2px;
+    
+}
+
+/*============================3rd Section End ==============================*/
+
+
+/*============================4th Section Start==============================*/
+
+#defaultSection {
+    clear: left;
+    background-color: #515f67;
+    color: #dcdedf;
+    padding: 30px;  
+}
+.defaultContent {
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
+
+.defaultContentText {
+    max-width: 40%;
+    float: left; 
+}
+
+video {
+    max-width: 50%;
+    margin-top: 25px;
+    float: right;
+   
+}
+
+button {
+    background-color: #515f67;
+    text-align: center;
+    padding: 5px 15px;
+    border: 1px solid #000;
+    cursor: pointer; 
+}
+
+button:hover{
+    color: #4bcaff;
+    border: 1px solid #4bcaff;
+}
+
+
+
+
+
+
+
+/*============================4th Section End ==============================*/
+
+
+
+/*============================5th Section Start==============================*/
+
+
+#twitterSec {
+    background-color: #4bcaff;
+    min-height: 150px;
+}
+.twitterContent {
+    max-width: 800px;
+    margin: 0 auto;
+    padding:20px;
+}
+.twitterArea {
+    padding: 15px 0;
+}
+
+.twitterArea h1{}
+
+#twitterSec p{
+    line-height: 25px;
+}
+
+
+/*============================5th Section End ==============================*/
+
+
+
+/*============================6th Section Start==============================*/
+
+#JoInDoe {
+    background: url(../images/blueasy-freebie.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    
+}
+
+.JoInDoeContent {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 250px;
+    padding: 20px;
+}
+.JoInDoeContent h1{
+    padding: 10px 0;
+}
+.JoInDoeLeft {
+    max-width: 50%;
+    float: left;
+}
+
+.JoInDoeLeft p{
+    padding: 5px 0;
+}
+.JoInDoeright {
+    max-width: 48%;
+    float: right;
+}
+.social {
+    padding: 20px 20px;
+    text-align: left;
+    
+}
+.social i{
+    font-size: 30px;
+    border: 2px solid #fff;
+    width: 30px;
+    margin-right: 15px;
+    display: inline;
+    padding: 5px; 
+}
+
+
+
+/*============================6th Section End ==============================*/
+
+
+/*============================7th Section Start==============================*/
+#testimonial {
+    height: 150px;
+    padding: 20px 0;
+}
+.testimonialArea h1{
+    padding: 10px 0;
+}
+
+.testimonialContent {
+    max-width: 800px;
+    margin: 0 auto;
+   
+}
+
+.testimonialContent p{
+    padding: 5px;
+   
+}
+.testimonialArea {}
+
+.testimonialArea p{ 
+    padding-top: 5px;
+}
+
+.walterWhite {
+    color:aqua;
+    font-weight: #4BCAFF;
+    font-size: 12px;
+}
+
+
+
+/*============================7th Section End ==============================*/
+
+/*============================8th Section Start==============================*/
+
+#contact {
+    background: url(../images/blueasy-contact.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    
+}
+
+.contactArea {
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.contactArea h1 {
+    padding: 30px 0 20px 0;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+.contactPart1 {
+/*    display: inline-block;*/
+}
+.contactInfo {
+    width: 45%;
+    float: left;
+    display: block;
+}
+.contactInfo p{
+    text-transform: uppercase;
+    color:#fff;
+    padding: 10px 0;
+}
+
+.contactInfo input{
+    width: 75%;
+    height: 25px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.contactText {
+    width: 50%;
+    float: right;
+    
+}
+.contactText p{
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+}
+
+.message {
+    clear:right;
+    
+}
+.message p{
+    padding: 10px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+.message textarea{
+    width: 100%;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 2px;
+    height: 100px;
+    
+}
+.message button{
+    border: none;
+    color: #fff;
+    background-color: #4bcaff;
+    padding: 10px 100px;
+    margin: 40px 0;
+}
+
+
+/*============================8th Section End ==============================*/
+
+
+/*============================footer Section Start==============================*/
+
+footer {
+    background-color: #353f47;
+    max-width: 1920px;
+    
+    
+}
+
+.footerArea {
+    max-width: 800px;
+    margin: 0 auto;  
+}
+
+.footerArea ul{
+    list-style: none;
+    float: left;
+    
+}
+.footerArea li{
+    display: inline-block;
+    margin-right: 10px;
+    border-right: 2px solid #4b5860;
+}
+
+
+.footerArea a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4b5860;
+    padding-right: 10px;
+    font-size: 10px;
+}
+
+.footerText {
+    text-decoration: none;
+    color: #4b5860;
+    border: none;
+    float: right;
+}
+
+
+
+
+/*============================footer Section End ==============================*/
